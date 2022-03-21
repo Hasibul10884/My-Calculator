@@ -136,7 +136,7 @@
             android:="30dp" />
 
         <Button
-            android:id="@+id/multiply"
+            android:id="@+id/mul"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
@@ -196,7 +196,7 @@
             android:="30dp" />
 
         <Button
-            android:id="@+id/min"
+            android:id="@+id/sub"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
@@ -256,7 +256,7 @@
             android:="30dp" />
 
         <Button
-            android:id="@+id/sum"
+            android:id="@+id/add"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
