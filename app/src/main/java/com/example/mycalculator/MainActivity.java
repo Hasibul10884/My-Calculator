@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         Sub=findViewById(R.id.sub);
         One=findViewById(R.id.one);
         Two=findViewById(R.id.two);
+        Three=findViewById(R.id.three);
+        Add=findViewById(R.id.add);
 
     }
 }
