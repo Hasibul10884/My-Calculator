@@ -3,6 +3,7 @@ package com.example.mycalculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -38,6 +39,25 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+    }
+    public void ButtonClick(View view){
+        Button button=(Button) view;
+        String data=button.getText().toString();
+        switch (data){
+            case "AC":
+            input="";
+            break;
+            case "Ans":
+                input+="Answer";
+                break;
+
+            case "X":
+                input+="*";
+                break;
+
+
+        }
 
     }
 }
