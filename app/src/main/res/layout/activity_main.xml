@@ -316,7 +316,7 @@
             android:="30dp" />
 
         <Button
-            android:id="@+id/multiply"
+            android:id="@+id/equal"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
@@ -324,7 +324,7 @@
             android:textStyle="bold"
             android:textSize="30dp"
             android:background="@drawable/keyboard_btn"
-            android:text="X"
+            android:text="="
             android:textColor="@color/white"
             android:="30dp" />
 
