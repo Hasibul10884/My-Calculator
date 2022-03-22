@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private TextView screen;
-    private Button  AC,Power,Back,Div,Mul,Add,Sub,One,Two,Three,Four,Five,Six,Seven,Eight,Nine,Zero,Ans;
+    private Button  AC,Power,Back,Div,Mul,Add,Sub,One,Two,Three,Four,Five,Six,Seven,Eight,Nine,Zero,Ans,Point,Equal;
     private String input,Answer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,13 @@ public class MainActivity extends AppCompatActivity {
         Two=findViewById(R.id.two);
         Three=findViewById(R.id.three);
         Add=findViewById(R.id.add);
+        Zero=findViewById(R.id.zero);
+        Point=findViewById(R.id.point);
+        Ans=findViewById(R.id.ans);
+        Equal=findViewById(R.id.equal);
+
+
+
 
     }
 }
