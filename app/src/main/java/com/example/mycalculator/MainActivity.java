@@ -53,11 +53,24 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case "X":
+                Solve();
                 input+="*";
+                break;
+
+            case "^":
+                Solve();
+                input+="^";
+                break;
+            case "=":
+                Solve();
+                Answer=input;
                 break;
 
 
         }
+
+    }
+    private void Solve(){
 
     }
 }
