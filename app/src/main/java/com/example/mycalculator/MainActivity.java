@@ -66,6 +66,16 @@ public class MainActivity extends AppCompatActivity {
                 Answer=input;
                 break;
 
+                case "←"
+                    String newText=input.substring(0,input.length()-1);
+
+                  input=newText;
+                  break;
+            default:
+                if (input==null){
+                    input="";
+                }
+
 
         }
 

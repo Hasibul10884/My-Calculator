@@ -69,7 +69,7 @@
             android:textStyle="bold"
             android:textSize="30dp"
             android:background="@drawable/keyboard_btn"
-            android:text="-"
+            android:text="←"
 
             android:="30dp" />
 
