@@ -75,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
                 if (input==null){
                     input="";
                 }
+                if (data.equals("+")|| data.equals("-")|| data.equals("/")){
+                    Solve();
+                }
+                input+=data;
 
 
         }
