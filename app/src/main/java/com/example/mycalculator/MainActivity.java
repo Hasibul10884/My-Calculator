@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+        screen.setText(input);
 
     }
     private void Solve(){
