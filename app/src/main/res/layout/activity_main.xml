@@ -19,7 +19,7 @@
         android:layout_weight="1"
         android:textSize="30sp"
         android:background="#62ECAF"
-        android:gravity="center|right"
+        android:gravity="center|left"
         android:padding="10dp"
 
         android:textColor="#0000ff"
