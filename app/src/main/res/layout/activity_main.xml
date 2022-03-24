@@ -313,6 +313,7 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:textStyle="bold"
+            android:onClick="ButtonClick"
             android:textSize="30dp"
             android:background="@drawable/keyboard_btn"
             android:text="."
@@ -327,6 +328,7 @@
             android:layout_weight="1"
             android:textStyle="bold"
             android:textSize="22dp"
+            android:onClick="ButtonClick"
             android:background="@drawable/keyboard_btn"
             android:text="Ans"
 
