@@ -18,9 +18,7 @@
         android:layout_marginBottom="30dp"
         android:layout_weight="1"
         android:textSize="30sp"
-
         android:background="#62ECAF"
-
         android:gravity="center|right"
         android:padding="10dp"
 
@@ -46,7 +44,6 @@
            android:textSize="30dp"
             android:textColor="@color/teal_200"
 
-            android:="30dp"
             />
 
         <Button
@@ -61,7 +58,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="^"
 
-            android:="30dp" />
+          />
 
         <Button
             android:id="@+id/back"
@@ -75,7 +72,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="←"
 
-            android:="30dp" />
+           />
 
         <Button
             android:id="@+id/div"
@@ -83,14 +80,14 @@
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:textsize="30dp"
+            android:textSize="30dp"
             android:onClick="ButtonClick"
             android:textStyle="bold"
             android:background="@drawable/keyboard_btn"
             android:text="/"
-            android:textSize="30dp"
 
-            android:="30dp" />
+
+          />
 
 
     </LinearLayout>
@@ -113,7 +110,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="7"
 
-            android:="30dp" />
+       />
 
         <Button
             android:id="@+id/eight"
@@ -127,7 +124,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="8"
 
-            android:="30dp" />
+      />
 
         <Button
             android:id="@+id/nine"
@@ -141,7 +138,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="9"
 
-            android:="30dp" />
+           />
 
         <Button
             android:id="@+id/mul"
@@ -155,7 +152,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="X"
             android:textColor="@color/white"
-            android:="30dp" />
+           />
 
 
     </LinearLayout>
@@ -177,7 +174,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="4"
 
-            android:="30dp" />
+       />
 
         <Button
             android:id="@+id/five"
@@ -191,7 +188,7 @@
             android:text="5"
             android:onClick="ButtonClick"
 
-            android:="30dp" />
+           />
 
         <Button
             android:id="@+id/six"
@@ -200,11 +197,12 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:textSize="30dp"
+            android:onClick="ButtonClick"
             android:textStyle="bold"
             android:background="@drawable/keyboard_btn"
             android:text="6"
 
-            android:="30dp" />
+          />
 
         <Button
             android:id="@+id/sub"
@@ -218,7 +216,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="-"
             android:textColor="@color/white"
-            android:="30dp" />
+       />
 
 
     </LinearLayout>
@@ -234,7 +232,7 @@
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:="30dp"
+
             android:background="@drawable/keyboard_btn"
             android:text="1"
             android:textSize="30dp"
@@ -249,7 +247,7 @@
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:="30dp"
+
             android:background="@drawable/keyboard_btn"
             android:text="2"
             android:textSize="30dp"
@@ -264,7 +262,7 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:onClick="ButtonClick"
-            android:="30dp"
+
             android:background="@drawable/keyboard_btn"
             android:text="3"
             android:textSize="30dp"
@@ -283,7 +281,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="+"
             android:textColor="@color/white"
-            android:="30dp" />
+            />
 
 
     </LinearLayout>
@@ -305,7 +303,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="0"
 
-            android:="30dp" />
+          />
 
         <Button
             android:id="@+id/point"
@@ -319,7 +317,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="."
 
-            android:="30dp" />
+            />
 
         <Button
             android:id="@+id/ans"
@@ -333,7 +331,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="Ans"
 
-            android:="30dp" />
+           />
 
         <Button
             android:id="@+id/equal"
@@ -347,7 +345,7 @@
             android:background="@drawable/keyboard_btn"
             android:text="="
             android:textColor="@color/white"
-            android:="30dp" />
+           />
 
 
     </LinearLayout>
